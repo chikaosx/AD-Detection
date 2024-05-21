@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 
 # Load your pre-trained Alzheimer's model
-model = pickle.load(open(r'gradexp.pkl', 'rb'))
+model = pickle.load(open('gradexp.pkl', 'rb'))
 
 def main(): 
     st.title("Alzheimer's Disease Detection")
