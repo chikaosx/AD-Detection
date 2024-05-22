@@ -28,7 +28,8 @@ def main():
     ravlt_immediate = st.sidebar.number_input("Rey Auditory Verbal Learning Test - Immediate Recall", min_value=0.0, max_value=100.0, value=0.0)
 
     html_temp = """
-    <div style="padding:10px">
+    <div style="background:#025246 ;padding:10px">
+    <h2 style="color:white;text-align:center;">Alzheimer's Disease Prediction App</h2>
     </div>
     """
     # Prediction button
