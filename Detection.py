@@ -22,7 +22,7 @@ def main():
                 
         """, unsafe_allow_html=True)
 
-    st.caption('Finished reading? Navigate to the `Prediction Page` to make some predictions')
+    st.caption('Finished reading? Navigate to the `Sidebar` to input data and click on the `Predict` button below.')
     
     html_temp = """
     <div style="background:#025246 ;padding:10px">
