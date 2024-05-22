@@ -10,13 +10,13 @@ def main():
 
     st.write("""
         ## Alzheimer's Disease: A Neurodegenerative Challenge
-        Alzheimer's disease (AD) is a devastating neurodegenerative condition characterized by progressive cognitive decline and memory loss. While memory impairment is a hallmark symptom, AD also affects reasoning, decision-making, and the ability to perform daily tasks. This multifaceted disease can even alter personality and behavior. Though the underlying causes are not fully understood, genetic factors like the APOE e4 gene variant play a significant role in increasing AD risk. With an aging global population, enhancing early detection and diagnosis of AD is crucial for timely intervention and improving patient outcomes through this research on ensemble machine learning models.
+        Alzheimer's disease (AD) is a devastating neurodegenerative condition characterised by progressive cognitive decline and memory loss. While memory impairment is a hallmark symptom, AD also affects reasoning, decision-making, and the ability to perform daily tasks. This multifaceted disease can even alter personality and behavior. Though the underlying causes are not fully understood, genetic factors like the APOE e4 gene variant play a significant role in increasing AD risk. With an aging global population, enhancing early detection and diagnosis of AD is crucial for timely intervention and improving patient outcomes through this research on ensemble machine learning models.
 
         ## Why Early Detection Matters
         Achieving early detection of AD is pivotal as it unlocks the best opportunities for effective treatment and improved quality of life for patients. Identifying AD at its onset enables timely clinical interventions that can significantly slow the progression of this debilitating condition. Early diagnosis provides a critical window for individuals and families to plan and access support services before symptoms severely impact daily functioning. Moreover, early detection facilitates participation in clinical trials investigating novel AD therapies, fostering hope for more effective future treatments. By advancing ensemble machine learning for enhanced early AD detection, this research holds the potential to transform diagnosis and empower those affected to confront this disease proactively when intervention is maximally impactful.
 
         ## Purpose of the project
-        The purpose of this project proposal is to develop a machine learning model for the early prediction of Alzheimer's disease. Alzheimer's disease is a devastating neurodegenerative disorder that affects millions of individuals worldwide. Early detection is crucial for better patient care and the development of potential interventions. This project aims to leverage machine learning techniques to create a predictive model that can identify individuals at risk of Alzheimer's disease based on relevant data.
+        The purpose of this dissertation is to develop a machine learning model aimed at enhancing the early detection of AD. Alzheimer's disease is a significant neurodegenerative condition that impacts millions globally, with its prevalence expected to rise due to an aging population. Early detection is essential for improving patient outcomes and facilitating the development of targeted interventions. This research focuses on utilising advanced machine learning techniques, particularly stacking ensemble learning models, to construct a predictive model capable of identifying individuals at risk of AD by analysing multimodal datasets, including neuroimaging, genetic markers, and cognitive assessments.
         
         <br>
                 
@@ -43,6 +43,10 @@ def main():
     mmse = st.sidebar.slider("Mini-Mental State Examination", min_value=0, max_value=30, value=0)
     adasq4 = st.sidebar.number_input("Alzheimer's Disease Assessment Scale - Question 4", min_value=0.0, max_value=50.0, value=0.0)
     ravlt_immediate = st.sidebar.number_input("Rey Auditory Verbal Learning Test - Immediate Recall", min_value=0.0, max_value=100.0, value=0.0)
+
+    st.write("""
+    <br>
+    """", , unsafe_allow_html=True)
 
     
     # Prediction button
