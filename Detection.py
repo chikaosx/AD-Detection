@@ -27,6 +27,8 @@ def main():
     adasq4 = st.sidebar.number_input("Alzheimer's Disease Assessment Scale - Question 4", min_value=0.0, max_value=50.0, value=0.0)
     ravlt_immediate = st.sidebar.number_input("Rey Auditory Verbal Learning Test - Immediate Recall", min_value=0.0, max_value=100.0, value=0.0)
 
+    <div style="padding:10px">
+    </div>
     # Prediction button
     if st.button("Predict"):
         try:
